@@ -11,4 +11,60 @@ VT部分参考： [HyperPlatform](https://github.com/tandasat/HyperPlatform)
 
 ### 重构的调试函数
 
-- [x] 
+- [x] NtCreateDebugObject
+
+- [x] GetDbgkInitialize
+
+- [x] NtWaitForDebugEvent
+
+- [x] NtDebugActiveProcess
+
+- [x] ProbeForReadSmallStructure
+
+- [x] NtDebugContinue
+
+- [x] DbgkpConvertKernelToUserStateChange
+
+- [x] DbgkpOpenHandles
+
+- [x] GePsGetProcessDebugPort
+
+- [x] PsSetProcessDebugPort
+
+- [x] IsThreadSkipCreationMsg
+
+- [x] DbgkpSuspendProcess
+
+- [x] DbgkpFreeDebugEvent
+
+- [x] DbgkpWakeTarget
+
+- [x] DbgkpQueueMessage
+
+- [x] DbgkpSendApiMessage
+
+- [x] DbgkpProcessToFileHandle
+
+- [x] PsGetThreadToAPCProcess
+
+- [x] DbgkSendSystemDllMessages
+
+- [x] DbgkpPostFakeThreadMessages
+
+- [x] DbgkpPostModuleMessages
+
+- [x] DbgkpPostFakeProcessCreateMessages
+
+- [x] DbgkpSetProcessDebugObject
+
+- [x] PsCaptureExceptionPort
+
+- [x] DbgkForwardException
+
+
+
+![alt text](photos\3184f7d94093190ea635a1329cf008d9.png)
+
+![alt text](photos\e1d33eb92d9a1bd469420998f0c1ae3f.png)
+
+![alt text](photos\7413e4c17327485fbd79ac1cb7df74db.png)
