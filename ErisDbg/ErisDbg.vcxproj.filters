@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="SearchCode">
+      <UniqueIdentifier>{c340b0ea-b991-445c-9a6f-68bf77b77b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{8f35cc35-b989-49e4-a8ce-dba02f6bad9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Performance">
+      <UniqueIdentifier>{24f62aae-424b-4b5a-9ee7-76892d1165d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NtFunctionByOsVersion">
+      <UniqueIdentifier>{f80480be-af98-4be1-aed7-b825e4068ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NtFunctionByOsVersion\OsVersion">
+      <UniqueIdentifier>{bc375aad-8591-4247-9106-c0abf928068e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VirtualizationTechology">
+      <UniqueIdentifier>{506df616-9058-4c6f-8bd5-e226518a15fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RebuiltDebugSystem">
+      <UniqueIdentifier>{f0a688b2-758c-4a9d-9135-18705bba2ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hde">
+      <UniqueIdentifier>{395b1997-1d75-4797-acd6-8e7d1f8b7ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VTDebug">
+      <UniqueIdentifier>{91242676-b568-4998-ac28-c6046a6a6610}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchCode.cpp">
+      <Filter>SearchCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="NtFunction.cpp">
+      <Filter>NtFunctionByOsVersion</Filter>
+    </ClCompile>
+    <ClCompile Include="Performance.cpp">
+      <Filter>Performance</Filter>
+    </ClCompile>
+    <ClCompile Include="vm.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilsVT.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="ept.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="PageHook.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="hde\hde64.cpp">
+      <Filter>hde</Filter>
+    </ClCompile>
+    <ClCompile Include="VmExitHandler.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuiltDbgSystem\initDbg.cpp">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuiltDbgSystem\Module.cpp">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuiltDbgSystem\ObjectType.cpp">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuiltDbgSystem\ResetOnceBreakPoint.cpp">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="RebuiltDbgSystem\Dbgkp.cpp">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ept2.cpp">
+      <Filter>VirtualizationTechology</Filter>
+    </ClCompile>
+    <ClCompile Include="VTDebug\ExceptionHandler.cpp">
+      <Filter>VTDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="VTDebug\BreakPoint.cpp">
+      <Filter>VTDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="VTDebug\DebugEvent.cpp">
+      <Filter>VTDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="VTDebug\DebugObject.cpp">
+      <Filter>VTDebug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NtExportFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchCode.h">
+      <Filter>SearchCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="NtFunction.h">
+      <Filter>NtFunctionByOsVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOsVersion\Win10_18363.hpp">
+      <Filter>NtFunctionByOsVersion\OsVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="Performance.h">
+      <Filter>Performance</Filter>
+    </ClInclude>
+    <ClInclude Include="Perf_counter.h">
+      <Filter>Performance</Filter>
+    </ClInclude>
+    <ClInclude Include="vm.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="ept.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32_type.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilsVT.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="asm.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="PageHook.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\hde64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\headers.hpp">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\pstdint.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="hde\table64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="VmxDefinition.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\initDbg.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\Module.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\ObjectType.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\peb.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\ResetOnceBreakPoint.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\SearchCode.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\Struct.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\dbg.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\Dbgkp.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\dbgStruct.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="RebuiltDbgSystem\export.h">
+      <Filter>RebuiltDebugSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="WinOsVersion\Win10_19045.hpp">
+      <Filter>NtFunctionByOsVersion\OsVersion</Filter>
+    </ClInclude>
+    <ClInclude Include="ept2.h">
+      <Filter>VirtualizationTechology</Filter>
+    </ClInclude>
+    <ClInclude Include="VTDebug\BreakPoint.h">
+      <Filter>VTDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="VTDebug\DebugEvent.h">
+      <Filter>VTDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="VTDebug\DebugObject.h">
+      <Filter>VTDebug</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm.asm">
+      <Filter>VirtualizationTechology</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
